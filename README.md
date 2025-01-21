@@ -1,7 +1,5 @@
 # Mini Command Line Application
 
-<img src="imagem.png" alt="Example image">
-
 > Mini Command Line Application that searches IPs and server names.
 
 ## 💻 Prerequisites
@@ -26,7 +24,19 @@ go mod tidy
 To use <mini-command-line-application>, follow these steps:
 
 ```
-go run main.go ip --host <website_url_without_http>
+go build
+```
+
+Then
+
+```
+./command-line-application ip --host <website_url_without_http>
+```
+
+Or
+
+```
+./command-line-application servers --host <website_url_without_http>
 ```
 
 ## 📫 Contributing to <mini-command-line-application>
