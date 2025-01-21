@@ -8,16 +8,16 @@ import (
 	"github.com/urfave/cli"
 )
 
-// Gerar vai retornar a aplicação de linha de comando pronta para ser executada
-func Gerar() *cli.App {
+// The Generate functions returns the command line application ready to run
+func Generate() *cli.App {
 	app := cli.NewApp()
-	app.Name = "Aplicação de Linha de Comando"
-	app.Usage = "Busca IPs e Nomes de Servidores na internet"
+	app.Name = "Command Line Application"
+	app.Usage = "Search IPs and server names on the internet"
 
 	app.Commands = []cli.Command{
 		{
 			Name:  "ip",
-			Usage: "Busca IPs de endereços na internet.",
+			Usage: "Seach IP addresses on the internet",
 			Flags: []cli.Flag{
 				cli.StringFlag{
 					Name:  "host",

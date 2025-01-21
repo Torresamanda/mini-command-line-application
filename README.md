@@ -1,54 +1,42 @@
 # Mini Command Line Application
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="imagem.png" alt="Example image">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Mini Command Line Application that searches IPs and server names.
 
-### Ajustes e melhorias
+## 💻 Prerequisites
 
-## 💻 Pré-requisitos
+Before you begin, make sure you have met the following requirements:
 
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
+- You have installed the latest version of `Golang`
+- You have a `<Windows / Linux / Mac>` machine. Indicate which operating system is compatible / not compatible.
+- You have read `This Readme Here`!
 
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+## 🚀 Installing <mini-command-line-application>
 
-## 🚀 Instalando <mini-command-line-application>
+To install <mini-command-line-application>, follow these steps:
 
-Para instalar o <mini-command-line-application>, siga estas etapas:
-
-Linux e macOS:
+Linux and macOS and Windows:
 
 ```
-<comando_de_instalação>
+go mod tidy
 ```
 
-Windows:
+## ☕ Using <mini-command-line-application>
+To use <mini-command-line-application>, follow these steps:
 
 ```
-<comando_de_instalação>
+go run main.go ip --host <website_url_without_http>
 ```
 
-## ☕ Usando <mini-command-line-application>
+## 📫 Contributing to <mini-command-line-application>
+To contribute to <mini-command-line-application>, follow these steps:
 
-Para usar <mini-command-line-application>, siga estas etapas:
+1. Fork this repository.
+2. Create a branch: git checkout -b <branch_name>.
+3. Make your changes and commit them: git commit -m '<commit_message>'
+4. Push to the original branch: git push origin <mini-command-line-application> / <location>
+5. Create the pull request.
 
-```
-<exemplo_de_uso>
-```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
-
-## 📫 Contribuindo para <mini-command-line-application>
-
-Para contribuir com <mini-command-line-application>, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <mini-command-line-application> / <local>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+Alternatively, see the GitHub documentation on [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 

@@ -8,9 +8,9 @@ import (
 )
 
 func main() {
-	fmt.Println("Ponto de partida")
+	fmt.Println("Starting point.")
 
-	aplicacao := app.Gerar()
+	aplicacao := app.Generate()
 	if erro := aplicacao.Run(os.Args); erro != nil {
 		log.Fatal(erro)
 	}
